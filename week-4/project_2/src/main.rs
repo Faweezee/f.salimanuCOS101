@@ -13,19 +13,8 @@ fn main() {
     
     println!("Are you experirienced: (true/false)");
     io::stdin().read_line(&mut in3).expect("Invalid input");
-    let mut experience = true;
-    if in3.trim().to_lowercase()== "true"
-    {
-        experience = true;
-    }
-    else if in3.trim().to_lowercase()== "false"
-    {
-        experience = false;
-    }
-    else{
-        experience = false;
-        println!("Invalid input");
-    }
+    let experience: bool = in3.trim().parse().expect("Invalid input");
+    
 
 
     if experience == true
