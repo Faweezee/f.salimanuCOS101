@@ -24,7 +24,7 @@ fn main() {
         io::stdin().read_line(&mut in1).expect("INVALID INPUT");
         let ord = in1.trim().to_lowercase().to_string();
 
-        println!("How many would you like to order (quantity):  ");
+        println!("How many units would you like to order (quantity):  ");
         let mut in2 = String::new();
         io::stdin().read_line(&mut in2).expect("INVALID INPUT");
         let qty: f32 = in2.trim().parse().expect("INVALID INPUT");
@@ -45,8 +45,7 @@ fn main() {
         }
         else{
             println!("INVALID INPUT");
-        }
-    
+        }    
 
         println!("Would you like to order anything else?  (y/ n)");
         let mut in3 = String::new();
