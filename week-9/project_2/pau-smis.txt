@@ -1,4 +1,4 @@
-                        PAU SMIS
+                                            PAU SMIS
 
     STUDENT NAME                    MATRIC. NUMBER                  DEPARTMENT                          LEVEL
 Oluchi Mordi                        ACC10211111                        Accounting                        300
