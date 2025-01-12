@@ -9,6 +9,11 @@ impl Laptop{
     {
         self.amount -= qty; 
     }
+
+    fn add_to_inventory(&mut self, qty: u32)
+    {
+        self.amount += qty; 
+    }
 }
 
 fn main()
