@@ -30,7 +30,7 @@ fn main()
 
     let cost_for_three_all = calc_cost(&mut dells, &mut hps, &mut ibms, &mut toshibas, 3,3,3,3);
     
-    println!("Cost for customer to buy 3 Dells, 3 HPs, 3 Toshibas and 3 IBMs is {}", cost_for_three_all);
+    println!("Cost for customer to buy 3 Dells, 3 HPs, 3 Toshibas and 3 IBMs is {}\n            *****TRANSACTION COMPLETED*****", cost_for_three_all);
     
     //let cost_for_three_all = calc_cost(&mut dells, &mut hps, &mut ibms, &mut toshibas, 3,3,3,3);
 
